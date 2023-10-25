@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+font-family: Menetapkan jenis font teks pada seluruh halaman menjadi Arial atau font sans-serif lainnya untuk meningkatkan legibilitas.
+text-align: Menetapkan seluruh teks di dalam elemen <body> untuk ditempatkan di tengah halaman.
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+max-width: Membatasi lebar maksimum elemen dengan class "container" menjadi 600 piksel.
+margin: Memberikan margin di atas dan di bawah elemen untuk mengatur posisinya secara vertikal.
+padding: Memberikan padding di dalam elemen, sehingga kontennya tidak terlalu dekat dengan tepi elemen.
+background-color: Menetapkan warna latar belakang elemen menjadi abu-abu muda (#f4f4f4).
+border-radius: Memberikan efek sudut bulat pada elemen dengan radius 5 piksel.
+box-shadow: Menambahkan bayangan pada elemen dengan parameter untuk memunculkan efek bayangan dengan kedalaman dan warna yang sesuai.
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+width: Mengatur lebar elemen input tipe teks menjadi 80% dari lebar parentnya.
+padding: Memberikan padding sekitar teks di dalam input untuk memberikan ruang ekstra di sekitar teks.
+margin: Memberikan margin atas dan bawah elemen input agar memiliki jarak dari elemen lain.
+border: Menambahkan garis tepi dengan lebar 1 piksel dan warna abu-abu muda (#ccc).
+border-radius: Memberikan sudut bulat pada elemen input dengan radius 3 piksel.
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+padding: Memberikan padding di dalam tombol untuk memberikan ruang ekstra di dalam tombol.
+background-color: Menetapkan warna latar belakang tombol menjadi hijau (#4CAF50).
+color: Mengatur warna teks dalam tombol menjadi putih.
+border: Menghilangkan garis tepi tombol.
+border-radius: Memberikan sudut bulat pada tombol dengan radius 3 piksel.
+cursor: Mengubah kursor saat berada di atas tombol menjadi tanda panah.
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+width: Membuat tabel memiliki lebar 100% dari lebar parentnya.
+border-collapse: Menghilangkan jarak antara sel-sel tabel (border-collapse: collapse).
+margin-top: Menambahkan margin atas tabel untuk memberikan jarak dari elemen di atasnya.
+padding: Memberikan padding di dalam sel-sel tabel.
+border: Menambahkan garis tepi 1 piksel dengan warna abu-abu muda (#ccc).
+text-align: Mengatur teks dalam sel-sel tabel menjadi rata kiri.
+background-color: Menetapkan warna latar belakang sel-sel header tabel menjadi hijau (#4CAF50).
+color: Mengatur warna teks dalam sel-sel header tabel menjadi putih.
+tr:nth-child(even): Mengatur warna latar belakang setiap baris ganjil di tabel menjadi abu-abu muda (#f2f2f2).

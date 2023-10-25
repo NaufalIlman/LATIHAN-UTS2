@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Table</h1>
+        <input type="text" id="urlInput" placeholder="Masukkan URL Data">
+        <button id="getDataButton">Ambil Data</button>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Area Code</th>
+                    <th>Cogs</th>
+                    <th>Difference</th>
+                    <th>Date</th>
+                    <th>Inventory Margin</th>
+                    <th>Margin</th>
+                    <th>Market Size</th>
+                    <th>Market</th>
+                    <th>Marketing</th>
+                    <th>Product Line</th>
+                    <th>Product Type</th>
+                    <th>Product</th>
+                    <th>Profit</th>
+                    <th>Sales</th>
+                    <th>State</th>
+                    <th>Target Cogs</th>
+                    <th>Target Margin</th>
+                    <th>Target Profit</th>
+                    <th>Target Sales</th>
+                    <th>Total Expenses</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody id="dataBody">
+                <!-- Data akan ditampilkan di sini -->
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
